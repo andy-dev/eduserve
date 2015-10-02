@@ -1,7 +1,6 @@
-$(function(){
-  $('#masonry-container').masonry({
-    itemSelector: '.box',
-    columnWidth: 110,
-    isFitWidth: true
-  });
-});
+if ($(window).width() < 960) {
+   console.log("hi")
+}
+
+
+console.log("hi")
