@@ -1,0 +1,217 @@
+/*----------BANNER--------*/
+
+.banner {
+  padding-left: 10px;
+  padding-right: 23px;
+  background: #424242;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  color: white;
+  z-index: 4;
+}
+
+.call-us {
+  text-align: right;
+  padding-top: 15px;
+}
+
+/*----------HOME/MISSION-------*/
+
+.home {
+  position: absolute;
+  margin-top: 55px;
+  height: 600px;
+  z-index: -1;
+  background: #909090;
+  /*  background-repeat: no-repeat;
+  background-image: url(../imgs/worldn.jpg);
+  background-position: left;
+  background-size: 1400px 600px;*/
+}
+
+.home-row {
+  width: 100%;
+}
+
+.mission {
+  margin-top: 140px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  border-color: (0,0,0,0.5);
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+  border: 0px;
+}
+
+/*----------ABOUT-------*/
+
+.about {
+  position: absolute;
+  margin-top: 655px;
+  width: 100%;
+  height: 6000px;
+  background: #0099CC;
+  /*background: linear-gradient(#9999ff , black);*/
+
+  /*background: -webkit-linear-gradient(red, black);*/ /* For Safari 5.1 to 6.0 */
+ /* background: -o-linear-gradient(red, black);*/  /*For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(red, black);*/ /* For Firefox 3.6 to 15 */
+ /* background: linear-gradient(red, black); /*/
+
+}
+
+.about h1 {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.about-row {
+  margin-top: 150px;
+  width: 100%;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
+.about-panel {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  border-color: (0,0,0,0.1);
+  background:rgba(0,0,0,0.1);
+  text-align: center;
+  border: 0px;
+}
+
+/*----------SERVICES-------*/
+
+.services {
+  position: absolute;
+  margin-top: 1300px;
+  width: 100%;
+  height: 1500px;
+  background: #003399;
+}
+
+.services-row {
+  margin-top: 150px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.services-title {
+  background:rgba(0,0,0,0.3);
+  color: #ffc04c;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 0;
+}
+
+
+.services-info {
+  background:rgba(0,0,0,0.3);
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
+}
+
+/*----------CONTACT-------*/
+.contact {
+  position: absolute;
+  margin-top: 2120px;
+  width: 100%;
+  height: 700px;
+  background: orange;
+}
+
+
+
+
+/*
+.apple-box {
+  width: 100%;
+  height: 700px;
+  background: none;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/apple.png);
+  background-image: rgba(0, 0, 0, 55);
+
+  background-size: 800px 580px;
+  background-position: center;
+  background-attachment: fixed;
+}*/
+
+
+
+/*.apple-box {
+  width: 100%;
+  margin-top: 55px;
+  height: 400px;
+  background: #424242;
+  /*background: linear-gradient(#323232 , black);
+  background-repeat: no-repeat;
+  /*background-image: url(../imgs/apple.png);*/
+  /*background-position: left;
+  background-attachment: fixed;*/
+
+
+/*.navber{
+  width: 400px;
+  height: 40px;
+  background: blue;
+  margin-top: 55px;
+  margin-top: 80px;
+  position: fixed;
+  z-index: 3;
+}
+
+
+.navber li {
+  display: inline;
+  position: center;
+  padding: 10px;
+}
+
+
+.navber li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}*/
+
+
+/*.navbar{
+  margin-top: 60px;
+  position: absolute;
+  float: right;
+  width: 100%;
+  background: blue;
+  background-color: none;
+  border: none;
+  box-shadow:none;
+  position: fixed;
+}
+
+.navbar-inner{
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar li{
+  font-size: 18px;
+}*/
