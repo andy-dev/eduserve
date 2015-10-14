@@ -68,9 +68,10 @@ body{
   /*background: #909090;*/
   background: white;
   background-repeat: no-repeat;
-  /*background-image: url(../imgs/worldn.jpg);*/
-  background-position: left;
-  background-size: 1600px 800px;
+  background-size: cover;
+  background-image: url(../imgs/background.jpg);
+  /*background-position: center;*/
+  /*background-size: 1000px 400px;*/
 }
 
 .home-row {
