@@ -1,37 +1,33 @@
-body{
-  font-family: Open+Sans:400;
-  color: grey;
-}
-
 /*----------BANNER--------*/
 
 .banner {
-  padding-left: 10px;
-  padding-right: 23px;
-  /*background:rgba(0,0,0,0.5);*/
+  padding-left: 25px;
+  padding-right: 25px;
   background: white;
   width: 100%;
+  color: #1874CD;
+  font-family: 'open sans';
+}
 
-  /*height: 60px;*/
-  position: fixed;
-  color: #909090;
-  z-index: 4;
+.banner h4{
+  font-weight: bold;
 }
 
 .call-us {
   text-align: right;
-  padding-top: 15px;
+  padding-top: 20px;
+  font-weight: bold;
 }
 
 .navy {
   margin-left: -40px;
-
 }
 
 .navy li {
   display: inline;
   padding-right: 10px;
-  font-size: 15px;
+  font-size: 18px;
+  color: #606060;
 
 }
 /*----------NAVIGATE--------*/
@@ -42,7 +38,7 @@ body{
   /*background: #909090;*/
 /*  margin-left: 170px;*/
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
   color: white;
   z-index: 4;
 }
@@ -70,8 +66,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../imgs/background.jpg);
-  /*background-position: center;*/
-  /*background-size: 1000px 400px;*/
+  background-position: center;
+  background-size:500px 500px;
 }
 
 .home-row {
