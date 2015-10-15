@@ -1,12 +1,13 @@
 /*----------BANNER--------*/
 
 .banner {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: white;
   width: 100%;
   color: #1874CD;
   font-family: 'open sans';
+  border-bottom: solid 1px #1874CD;
 }
 
 .banner h4{
@@ -27,8 +28,10 @@
   display: inline;
   padding-right: 10px;
   font-size: 18px;
-  color: #606060;
+}
 
+.navy li a {
+  color: #606060;
 }
 /*----------NAVIGATE--------*/
 
