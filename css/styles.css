@@ -21,7 +21,6 @@
   font-weight: bold;
 }
 
-
 .row-navy li {
   display: inline;
   padding-right: 15px;
@@ -54,7 +53,6 @@
     top: 150px;
 
 }
-
 
 .mission {
   color: white;
@@ -112,6 +110,14 @@
   line-height: 180%;
 }
 
+.left-about{
+  margin-right: 15px;
+}
+
+.right-about{
+  margin-left: 15px;
+}
+
 /*----------SERVICES-------*/
 
 .services {
@@ -127,7 +133,7 @@
 }
 
 .services-header{
-  padding-top: 25px;
+  padding-top: 40px;
   text-align: center;
   color: #FFD119;
   font-weight: bold;
@@ -143,6 +149,10 @@
   text-align: center;
   line-height: 200%;
   font-weight: normal;
+}
+
+.glyphicon-triangle-bottom {
+  margin-top: -10px;
 }
 
 /*----------CONTACT-------*/
@@ -176,10 +186,6 @@
   text-align: center;
 }
 
-.contact-header p{
-  /*text-decoration: underline;*/
-/*  border-bottom: 1px solid black;*/
-}
 
 .trademark{
   padding-top: 10px;
