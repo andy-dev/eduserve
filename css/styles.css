@@ -3,7 +3,8 @@
 .banner {
   color: #1874CD;
   font-family: 'open sans';
-  border-bottom: solid 1px #1874CD;
+  margin-top: 10px;
+  /*border-bottom: solid 1px #1874CD;*/
 }
 
 .row-header {
@@ -23,8 +24,9 @@
 
 .row-navy li {
   display: inline;
-  padding-right: 15px;
-  font-size: 18px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-left: -5px;
 }
 
 .row-navy li a {
@@ -50,8 +52,7 @@
 .layer2 {
     position: relative;
     z-index: 2;
-    top: 150px;
-
+    top: 220px;
 }
 
 .mission {
@@ -78,7 +79,7 @@
   .mission {
     width: 370px;
     height: 150px;
-    margin-top: -110px;
+    margin-top: -140px;
     font-size: 15px;
     word-spacing: 0;
   }
@@ -89,12 +90,11 @@
 .about {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   background-color: #e9e9e9;
-  border-bottom: solid 1px #1874CD;
 }
 
-.about h1{
+.about h2{
   text-align: center;
   padding-top: 15px;
   font-family: 'open sans';
@@ -104,28 +104,24 @@
 .about p {
   color: #614126;
   font-size: 20px;
-  font-family: 'open sans';
+  font-family: 'open sans condensed';
+  margin-top: 20px;
   padding: 25px;
   text-align: center;
   line-height: 180%;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-.left-about{
-  margin-right: 15px;
-}
 
-.right-about{
-  margin-left: 15px;
-}
 
 /*----------SERVICES-------*/
 
 .services {
   padding-top: 20px;
-  border-bottom: solid 1px #1874CD;
 }
 
-.services h1{
+.services h2{
   text-align: center;
   padding-top: 15px;
   font-family: 'open sans';
@@ -140,29 +136,36 @@
   font-size: 20px;
 }
 
+.glyphicon-triangle-bottom {
+  margin-top: -10px;
+}
+
 .description{
   margin-top: -30px;
   color: #614126;
   font-size: 20px;
-  font-family: 'open sans';
+  font-family: 'open sans condensed';
   padding: 40px;
   text-align: center;
-  line-height: 200%;
+  line-height: 180%;
   font-weight: normal;
 }
 
-.glyphicon-triangle-bottom {
-  margin-top: -10px;
+.description-graduate{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 80%;
+  font-weight: bold;
 }
+
 
 /*----------CONTACT-------*/
 .contact {
   background: #e9e9e9;
   padding-top: 20px;
-  border-bottom: solid 1px #1874CD;
 }
 
-.contact h1{
+.contact h2{
   text-align: center;
   padding-top: 15px;
   font-family: 'open sans';
@@ -172,7 +175,7 @@
 .contact-row {
   padding-top: 40px;
   padding-left: 12px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -182,11 +185,14 @@
   margin-right: 12px;
   color: #614126;
   font-size: 20px;
-  font-family: 'open sans';
+  font-family: 'open sans condensed';
   text-align: center;
+  line-height: 70%;
 }
 
-
+#phone-mail{
+  margin-top: 20px;
+}
 .trademark{
   padding-top: 10px;
   text-align: center;
