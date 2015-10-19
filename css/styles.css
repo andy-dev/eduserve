@@ -56,20 +56,34 @@
 }
 
 
-
 .mission {
   color: white;
   font-size: 18px;
   font-family: 'open sans';
   line-height: 200%;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 100px;
-  padding-left: 100px;
-
-  background:rgba(0,0,0,0.3);
+  width: 530px;
+  height: 160px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  background:rgba(168,168,168,.7);
   border: 0px;
+}
+
+.mission p{
+  word-spacing: 3px;
+}
+
+@media (max-width: 560px) {
+  .mission {
+    width: 370px;
+    height: 150px;
+    margin-top: -110px;
+    font-size: 15px;
+    word-spacing: 0;
+  }
 }
 
 /*----------ABOUT-------*/
